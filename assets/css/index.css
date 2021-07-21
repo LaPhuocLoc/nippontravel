@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#content {
+    margin-top: 53px;
+    max-width: 480px;
+    height: 800px;
+}
+/* Navigation */
+#topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 53px;
+    line-height: 53px;
+    background-color: #04AA6D;
+    z-index: 111;
+}
+#topnav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 16px;
+    font-size: 17px;
+}
+#topnav .active {
+    height: 100%;
+    display: flex;
+}
+.active img {
+    width: 66px;
+    height: 53px;
+}
+.active .logo-text {
+    margin-left: 16px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px green, 0 0 20px green, 0 0 40px green;
+}
+.subnav {
+    background-color: #222;
+    display: none;
+}
+.subnav a:hover {
+    background-color: #333;
+}
+#topnav .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 16px;
+    width: 53px;
+    height: 53px;
+    background-color: #111;
+}
+.icon i {
+    font-size: 28px;
+}
+/* Content */
+#content {
+    text-align: center;
+}
+.content-heading {
+    position: relative;
+    margin-top: 32px;
+    display: inline-block;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    color: #111;
+}
+.content-heading::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(17, 17, 17, 0.3);
+
+}
+.content-slogan {
+    text-align: center;
+    margin-top: 8px;
+    opacity: 0.6;
+    font-style: italic;
+    font-size: 1rem;
+    color: red;
+}
+#map {
+    width: 100%;
+}
+.sliders-wrapper {
+    position: relative;
+    overflow: hidden;
+
+}
+.sliders {
+    width: 900%;
+    display: flex;
+    height: 210px;
+}
+.slide {
+    display: flex;
+    width: 11.11111%;
+    transition: 0.6s all;
+    text-align: center;
+    color: #fff;
+    padding: 48px 0;
+}
+/* slide-background */
+#slide-s1 {
+    background: url(/NipponTravel/assets/img/slides/hokkaido.jpg) center / cover no-repeat;
+}
+#slide-s2 {
+    background: url(/NipponTravel/assets/img/slides/tohoku.jpg) center / cover no-repeat;
+}
+#slide-s3 {
+    background: url(/NipponTravel/assets/img/slides/kanto.jpg) center / cover no-repeat;
+}
+#slide-s4 {
+    background: url(/NipponTravel/assets/img/slides/chubu.jpg) center / cover no-repeat;
+}
+#slide-s5 {
+    background: url(/NipponTravel/assets/img/slides/kansai.jpg) center / cover no-repeat;
+}
+#slide-s6 {
+    background: url(/NipponTravel/assets/img/slides/chugoku.jpg) center / cover no-repeat;
+}
+#slide-s7 {
+    background: url(/NipponTravel/assets/img/slides/shikoku.jpg) center / cover no-repeat;
+}
+#slide-s8 {
+    background: url(/NipponTravel/assets/img/slides/kyushu.jpg) center / cover no-repeat;
+}
+#slide-s9 {
+    background: url(/NipponTravel/assets/img/slides/okinawa.jpg) center / cover no-repeat;
+}
+#text-bg {
+    width: 100%;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.slide-name {
+    font-size: 25px;
+}
+.slide-about {
+    margin-top: 12px;
+    font-size: 15px;
+    padding: 0 32px;
+    text-shadow: 0 0 10px #111;
+}
