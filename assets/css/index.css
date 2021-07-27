@@ -126,31 +126,31 @@ body {
 }
 /* slide-background */
 #slide-s1 {
-    background: url(assets/img/slides/hokkaido.jpg) center / cover no-repeat;
+    background: url(./assets/img/slides/hokkaido.jpg) center / cover no-repeat;
 }
 #slide-s2 {
-    background: url(assets/img/slides/tohoku.jpg) center / cover no-repeat;
+    background: url(./assets/img/slides/tohoku.jpg) center / cover no-repeat;
 }
 #slide-s3 {
-    background: url(assets/img/slides/kanto.jpg) center / cover no-repeat;
+    background: url(./assets/img/slides/kanto.jpg) center / cover no-repeat;
 }
 #slide-s4 {
-    background: url(assets/img/slides/chubu.jpg) center / cover no-repeat;
+    background: url(./assets/img/slides/chubu.jpg) center / cover no-repeat;
 }
 #slide-s5 {
-    background: url(assets/img/slides/kansai.jpg) center / cover no-repeat;
+    background: url(./assets/img/slides/kansai.jpg) center / cover no-repeat;
 }
 #slide-s6 {
-    background: url(assets/img/slides/chugoku.jpg) center / cover no-repeat;
+    background: url(./assets/img/slides/chugoku.jpg) center / cover no-repeat;
 }
 #slide-s7 {
-    background: url(assets/img/slides/shikoku.jpg) center / cover no-repeat;
+    background: url(./assets/img/slides/shikoku.jpg) center / cover no-repeat;
 }
 #slide-s8 {
-    background: url(assets/img/slides/kyushu.jpg) center / cover no-repeat;
+    background: url(./assets/img/slides/kyushu.jpg) center / cover no-repeat;
 }
 #slide-s9 {
-    background: url(assets/img/slides/okinawa.jpg) center / cover no-repeat;
+    background: url(./assets/img/slides/okinawa.jpg) center / cover no-repeat;
 }
 #text-bg {
     width: 100%;
